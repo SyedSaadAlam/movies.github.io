@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Name - MHD</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="all Images/Images/fav-icon.png"/>
+    <!-- impot ----poppins-fonts---------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<!-- inport monoton font--================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Outfit&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+
+<!-- Using font Awesome ===========================-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+<!-- css-Swiper=========================== -->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+
+
+<body>
+
+
+
+    <!-- ==Scroll-progress-bar================================================= -->
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+
+
+
+
+
+
+    <!-- ==Navigation==============================-->
+    <nav class="navigation">
+        <!-- menu-btn-------------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!-- logo----------------------------------- -->
+        <a href="index.html" class="logo">
+            Movies <span>.hd</span>
+        </a>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <!-- search box------------------->
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="Search Movies" class="search-input" required/>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </nav>
+        <!--Nave eend===================  -->
+
+    <!-- Movie-Bannner===================================== -->
+    <section class="movie-banner">
+
+        <!-- ==img====================================== -->
+        <div class="m-banner-img">
+            <img src="all Images/Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/cover.jpg" alt="">
+        </div>
+
+        <!-- content====================================== -->
+        <div class="banner-container">
+
+            <!-- tittle-container********************************--->
+            <div class="title-container">
+                <!-- title-top -->
+                <div class="title-top">
+
+                <!--title---------->
+                <div class="movie-title">
+                    <h1>Pirates of the Caribbean Salazar's Revenge</h1>
+                </div>
+                <!-- more-about-movie -->
+                <div class="more-about-movie">
+                    <span class="quality">Full HD</span>
+                    <div class="rating">
+                        8.2 <img src="all Images/Images/IMDb-icon.png" alt="IMDb">
+                    </div>
+                    <span>28 August 2017</span>
+                    <span>87min</span>
+                </div>
+                <!-- language ---------------->
+                <div class="language">
+                    <span>English</span>
+                </div>
+
+                </div>
+
+                <!-- title bottom===------- -->
+                <div class="title-bottom">
+                    <!-- category -->
+                    <div class="category">
+                        <strong>Category</strong><br/>
+                        <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                    </div>
+                    <!-- trailler-btn-------->
+                    <a href="https://www.youtube.com/watch?v=SKLuEuO775Q" class="watch-btn">Watch Trailer</a>
+                </div>
+            </div>
+
+
+
+
+            <!-- play-btn***********************************---------->
+            <div class="play-btn-container">
+                <div class="play-btn">
+                    <a href="javascript:void">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Video/full-movie ***************************** -->
+            <div id="play" class="play">
+                <!-- close-btn -->
+                <a href="javascript:void" class="close-movie">
+                    <i class="fas fa-times"></i>
+                </a>
+                <!-- movie -->
+                <div class="play-movie">
+                    <video id="m-video" controls>
+                        <source src="all Images/Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- banner-end ------------->
+
+
+
+
+        <!-- details============================================= -->
+        <section class="movie-details">
+            <strong>Pirates of the Caribean: Salazar's Revenge</strong>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nihil, voluptatum optio quibusdam molestiae voluptas debitis tempore est! Veniam quo soluta asperiores natus. Obcaecati, repudiandae incidunt nostrum doloremque at accusamus.</p>
+        </section>
+
+        <!--screen Short===========================================  -->
+        <section class="screenshort">
+
+            <strong>ScreenShorts</strong>
+            <!-- screen-s-container ----------------------------->
+            <div class="screen-s-container">
+                <img src="all Images/Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-1.jpg" alt="">
+                <img src="all Images/Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-2.jpg" alt="">
+                <img src="all Images/Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-3.jpg" alt="">
+                <img src="all Images/Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-4.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- Dowload++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <section class="dowload-movie">
+            <!-- container-------------------- -->
+              <div class="dowload-container">
+                  <!-- box -->
+                  <div class="dowload-box">
+                      <span><i class="fas fa-server"></i>Server 1</span>
+                      <span>English</span>
+                      <span>480p</span>
+                      <a href="Doc1.docx" download="dowload-movie">Download</a>
+                  </div>
+                    <!-- box -->
+                    <div class="dowload-box">
+                        <span><i class="fas fa-server"></i>Server 2</span>
+                        <span>English</span>
+                        <span>720p</span>
+                        <a href="Doc1.docx" download="dowload-movie">Download</a>
+                    </div>
+                      <!-- box -->
+                  <div class="dowload-box">
+                    <span><i class="fas fa-server"></i>Server 3</span>
+                    <span>English</span>
+                    <span>1080p</span>
+                    <a href="Doc1.docx" download="dowload-movie">Download</a>
+                </div>
+                
+              </div>
+
+        </section>
+
+
+
+
+
+            <!-- ==footer========================================== -->
+            <footer>
+                <!-- footer-logo------>
+                <a href="index.html" class="logo">
+                    Movies <span>.hd</span>
+                </a>
+                <!-- coryright ------>
+                <span class="copyright">
+                    copyright 2021 - SyEd Saad
+                </span>
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    <!--==jquery==========================-->
+    <script src="java/jQuery.js"></script>
+
+
+
+
+     <script>
+        /*==scroll-progress-bar======================*/
+        let scrollPrecentage = () =>{
+                let scrollProgress = document.getElementById("progress");
+                let progressValue = document.getElementById("progress-value");
+                let pos = document.documentElement.scrollTop;
+                let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                let scrollValue = Math.round(pos * 100 / calcHeight);
+                scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+            }
+            window.onscroll = scrollPrecentage;
+            window.onload = scrollPrecentage;
+
+
+          
+
+
+        // --menu-btn-fixed-when-scroll================
+        $(window).scroll(function(){
+            if($(document).scrollTop() > 20){
+                $('.navigation').addClass('fix-icon');
+            }
+            else{
+                $('.navigation').removeClass('fix-icon');
+            }
+        });
+
+
+        // ==popup-open======================================
+
+        $(document).on('click','.play-btn a',function(){
+            $('.play').addClass('active-popup');
+        });
+  // ==popup-close===========================================
+
+        $(document).on('click','.close-movie',function(){
+            $('.play').removeClass('active-popup');
+        });
+         /*==auto-play-when-popup-open===================*/
+         $('.play-btn a').click(function(){
+            $('#m-video')[0].play();
+        });
+        /*==Close-video-when-poppup-close==============*/
+        $('.close-movie').click(function(){
+            $('#m-video')[0].pause();
+        });
+
+
+      </script>
+
+
+</body>
+
+
+
+
+</html>
